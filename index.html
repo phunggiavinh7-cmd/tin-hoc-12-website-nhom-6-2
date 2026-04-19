@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vietnam Travel Guide - Hướng dẫn du lịch Việt Nam</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://via.placeholder.com/32?text=VN" type="image/x-icon">
+</head>
+<body>
+  <!-- HEADER: Sticky navigation with logo and menu -->
+  <header>
+    <div class="container header-content">
+      <a href="index.html" class="logo">Vietnam Travel Guide</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="diemden.html">Điểm đến</a></li>
+          <li><a href="amthuc.html">Ẩm thực</a></li>
+          <li><a href="lienhe.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN LAYOUT: Flexbox 70/30 -->
+  <div class="container main-layout">
+    <!-- MAIN CONTENT: Grid of post cards -->
+    <main>
+      <h1 class="section-title">Khám phá Việt Nam<span class="highlight"></span></h1>
+      
+      <div class="post-list">
+        <!-- POST CARD 1: Hanoi -->
+        <article class="post-card">
+          <img src="https://img.lsvn.vn/vne-news/January2024/Picture15.png" alt="Hà Nội cổ kính" class="post-image">
+          <div class="post-content">
+            <h2 class="post-title">Khám phá Hà Nội cổ kính</h2>
+            <div class="post-meta">15/10/2024</div>
+            <p class="post-excerpt">Hà Nội - Thủ đô ngàn năm văn hiến với 36 phố phường, hồ Hoàn Kiếm và những món ăn đường phố đặc sắc.</p>
+            <a href="pages/hanoi.html" class="read-more">Đọc thêm →</a>
+          </div>
+        </article>
+
+        <!-- POST CARD 2: Da Nang -->
+        <article class="post-card">
+          <img src="https://kienoceanhotel.com/wp-content/uploads/2025/08/da-nang.jpg.webp" alt="Cầu Rồng Đà Nẵng" class="post-image">
+          <div class="post-content">
+            <h2 class="post-title">Du lịch Đà Nẵng đáng nhớ</h2>
+            <div class="post-meta">12/10/2024</div>
+            <p class="post-excerpt">Cầu Rồng, Bà Nà Hills, bãi biển Mỹ Khê và những cây cầu nghệ thuật tuyệt đẹp.</p>
+            <a href="pages/danang.html" class="read-more">Đọc thêm →</a>
+          </div>
+        </article>
+
+        <!-- POST CARD 3: HCM -->
+        <article class="post-card">
+          <img src="https://i.ytimg.com/vi/-_rgR27c1ag/sddefault.jpg?v=612e13e9" alt="Sài Gòn sôi động" class="post-image">
+          <div class="post-content">
+            <h2 class="post-title">Trải nghiệm Sài Gòn sôi động</h2>
+            <div class="post-meta">10/10/2024</div>
+            <p class="post-excerpt">TP.HCM với chợ Bến Thành, nhà thờ Đức Bà, phố đi bộ Nguyễn Huệ và ẩm thực đường phố.</p>
+            <a href="pages/hcm.html" class="read-more">Đọc thêm →</a>
+          </div>
+        </article>
+
+        <!-- POST CARD 4: Phu Quoc -->
+        <article class="post-card">
+          <img src="https://booking.muongthanh.com/upload_images/images/diem-tham-quan-vui-choi-phu-quoc.jpg" alt="Phú Quốc đảo ngọc" class="post-image">
+          <div class="post-content">
+            <h2 class="post-title">Phú Quốc - Đảo ngọc thiên đường</h2>
+            <div class="post-meta">08/10/2024</div>
+            <p class="post-excerpt">Bãi Sao trắng mịn, nước trong xanh, hải sản tươi ngon và cable car dài nhất thế giới.</p>
+            <a href="pages/phuquoc.html" class="read-more">Đọc thêm →</a>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <!-- SIDEBAR: Widgets -->
+    <aside>
+      <!-- Widget 1: Giới thiệu -->
+      <div class="widget">
+        <h3>Về Du lịch Việt Nam</h3>
+        <p>Việt Nam sở hữu hơn 3.200km đường bờ biển tuyệt đẹp, 8 UNESCO World Heritage Sites và nền ẩm thực được CNN bình chọn top thế giới.</p>
+      </div>
+
+      <!-- Widget 2: Địa điểm nổi bật -->
+      <div class="widget">
+        <h3>Địa điểm hot</h3>
+        <ul>
+          <li><a href="pages/hanoi.html">Hà Nội</a></li>
+          <li><a href="pages/danang.html">Đà Nẵng</a></li>
+          <li><a href="pages/hcm.html">TP.HCM</a></li>
+          <li><a href="pages/phuquoc.html">Phú Quốc</a></li>
+        </ul>
+      </div>
+
+      <!-- Widget 3: Tips du lịch -->
+      <div class="widget">
+        <h3>Tips du lịch</h3>
+        <ul class="tips-list">
+          <li>Đặt vé máy bay sớm 2-3 tháng</li>
+          <li>Chọn homestay/resort có review tốt</li>
+          <li>Thử street food nhưng chọn quán đông khách</li>
+          <li>Mang kem chống nắng SPF 50+</li>
+          <li>Tải Grab cho di chuyển</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <p> 2026 Vietnam Travel Guide. Tất cả quyền được bảo lưu.</p>
+        </div>
+        <div class="social-links">
+          <a href="#">📧 contact@vietnamtravel.vn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
